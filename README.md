@@ -1,1 +1,1 @@
-# js-game
+# fristyr-js-game

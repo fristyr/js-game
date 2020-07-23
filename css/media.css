@@ -1,0 +1,118 @@
+@media screen and (max-width: 1020px) {
+    .header__board {
+        margin-top: 0;
+        transform: translateY(-8%);
+    }
+    .game-zone {
+        height: calc(100vh - 165px);
+    }
+
+    .game-zone__pipe {
+        margin-right: 30px;
+        width: 200px;
+        height: 142px;
+    }
+
+    .game-zone__pipe:nth-child(5) {
+        transform: translate(-49%, 7%);
+    }
+}
+
+ @media screen and (max-width: 850px) {
+    html {
+        font-size: 7px;
+    }
+    .game-zone {
+        height: calc(100vh - 250px);
+    }
+    .game-zone__pipe {
+        width: 170px;
+        height: 120px;
+    }
+
+    .game-zone__pipe:nth-child(1) {
+        transform: translate(10%, -20%);
+    }
+    .game-zone__pipe:nth-child(3) {
+        transform: translate(-10%, -20%);
+        margin: 0;
+    }
+    
+    .modal {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .game-zone__pipe:nth-child(1),
+    .game-zone__pipe:nth-child(2),
+    .game-zone__pipe:nth-child(3) {
+        margin: 0;
+        transform: translate(0);
+    }
+
+    .game-zone__pipe:nth-child(2) {
+        transform: translateY(20%);
+    }
+
+    .game-zone__pipe:nth-child(4) {
+        transform: translate(40%);
+    }
+
+    .game-zone__pipe:nth-child(5) {
+        transform: translate(-25%);
+    }
+    
+}
+
+@media screen and (max-width: 571px) {
+    .header__buttons {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        max-width: 32%;
+    }
+    .button_start {
+        margin: 0 0 5px 0;
+    }
+
+    .game-zone__pipe {
+        width: 130px;
+        height: 100px;
+    }
+
+    .modal__title,
+    .modal__submit {
+        font-size: 24px;
+    }
+    .modal__name {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .main {
+        padding: 36px 2% 0 2%;
+    }
+    .header__buttons {
+        max-width: 40%;
+    }
+    .game-zone__pipe {
+        width: 100px;
+        height: 80px;
+    }
+    .game-zone__pipe:nth-child(1) {
+        transform: translate(35% , -80%);
+    }
+    .game-zone__pipe:nth-child(3) {
+        transform: translate(-35% , -80%);
+    }
+    .modal__title {
+        margin-top: -8%;
+    }
+    .modal__submit {
+        margin-bottom: -11%;
+    }
+
+
+}
